@@ -5,7 +5,7 @@
 @media ( max-width:480px){
     
 body {
-    background-image:url("foto/3.jpg");
+    background-image:url("20230926_125950.jpg");
     background-size: cover;
     padding-top:25%;
 }
@@ -84,7 +84,7 @@ h1{
 @media( min-width:481px){
     
 body {
-    background-image:url("foto/fundo.jpg");
+    background-image:url("20230926_125950.jpg");
     background-size: cover;
     padding: 1%;
 }
