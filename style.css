@@ -1,186 +1,163 @@
-
 *{
-    padding: 0;
     margin: 0;
-    width:400px;
+    padding: 0;
 }
-@media(max-width:450px){
+@media ( max-width:480px){
     
-    header{
-        padding-top:2px;
-    }
-    .container{width: 13em;
-          align-items: center ;
-          background: #0000004e;
-          border-radius: 20px;
-          padding: 1em;
-               
-          }
-    body {
-    
-    background:#125b08;
-    background-image:url("20230926_125950.jpg");
-    
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    text-align:  ;
-    padding:1em ;
-    font-size:25px;
-    color: #eaffff;
-    padding-top:2em;
-     } 
-     
-     #email{
-         width: 19em;
-         font-size:16px;
-         text-align:center;
-     }
-     label{
-         text-align:left;
-     } 
-   button{
-        width: 250px;
-        height: 50px;
-        background: #0d0f19c7;
-        font-size:25px;
-        color: White;
-        box-shadow: 3px 3px 3px #202323a1;
-        margin: 3px;
-        border-radius: 15px;
-       
-   }
-  .bt{
-        display :flex;
-        justify-content:center;
-        align-items: center ;      
-   }
-   img{
-        display:block;
-        margin: auto;
-        }
-    h1{font-size:30px;
-    width: 12em;
-    padding: 3px;
-    text-align: center ;
-  
-    
-    } 
-    select{height: 45px;
-    border-radius: 5px;
-     background: #202323a1;
-        font-size:15px;
-        color: white;
-        box-shadow: 3px 3px 3px #202323a1;
-        margin: 3px; }
-        
-    input{
-        width: 80px;
-        height: 35px;
-        text-align: center ;
-        background: #202323a1;
-        font-size:25px;
-        color: white;
-    }
-    
+body {
+    background-image:url("foto/3.jpg");
+    background-size: cover;
+    padding-top:25%;
 }
+.container{
 
-@media(min-width:460px) and (max-width:2024px){
-    .container{
-        margin: auto;
-        margin-top: 40px;
-        width: 400px;
-        height: 400;        
-        background-color: #189daa42;
-        padding: 3em;
-         justify-content: center;
-         align-items: center;
-         border-radius: 20px;
-         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.638);
-        
-         
+text-align: center;
+background: #00000085;
+width: 80%;
+height: 10%;
+margin: auto;
+padding: 5%;
+padding-bottom:12%;
+align-items:center;
+justify-content: center;
+text-align: center;
+border-radius: 15px;
+box-shadow:3px 3px 3px black ;
+}
+h1{
+    margin-top:1%;
+    color: #ffffff;
+    font-size:1.3rem;}
+    p{
+       text-align: left ;
+       color: #ffffff;
+       font-size:1.6rem;
     }
-    body {
-    background:#0d4006d0;
-    background-image:url("teclado.jpg");
-    
-    background-repeat: no-repeat;
-    
-    
-    }
-    label{
-        color: #ffffff;
-    }
-    
-    img{
-    height: 100%;
-    justify-content:center;
-    align-items: center ;
-   
-    }
-    
-    h1{color:#eaeaff;
-        font-size:30px;
-        margin: 4px;
+    input{
+        width: 50%;
+        margin-left:25%;
+        margin-bottom:4px;
         text-align: center ;
         
     }
-   button{
-        width: 280px;
-        height: 30px;
-        background: #0d0f19c7;
+    hr{
+        border-color: #0081ffa2;
+        width: 35%;
+        margin: auto;
+        
+        
+    }
+    .caixa{
+       
+        margin-top:15%;
+        margin-bottom:5%;
+        
+    }
+    button{
+        width: 40%;
+        box-shadow:3px 2px 3px #eaffff6d;
+        background: #00214283;
+        border-color:#eaffff54;
+        color:#ffffff ;
         font-size:19px;
-        color: White;
-        box-shadow: 3px 3px 3px #202323a1;
-        margin: 3px;
-        border-radius: 15px;
-        padding: 4px;
         
-       
-   }
-   button:hover{
-    background-color: #eaeaffc3;
-    cursor: pointer;
-    color: #000;
-   }
-    .bt{
-        
-        text-align: center;
-        justify-content: center;
-        align-items:center;
-        
-        background-size: cover;
-        background-size: 100%;
-        
+    }
+    button:hover{
+        color: #383838dc;
+        background-color:#ffffff8d;
+        cursor:pointer;
+    }
+    img{
+        width: 50%;
         
         
     }
-    input{
-        width: 100px;
-        text-align: right ;
+    
+    .linha{
+        margin: 0;
     }
+    .subcx{
+        margin: auto;
+    }
+    
+}
+@media( min-width:481px){
+    
+body {
+    background-image:url("foto/fundo.jpg");
+    background-size: cover;
+    padding: 1%;
+}
+.container{
+text-align: center;
+background: #00000085;
+width: 45%;
+height: 1%;
+margin: auto;
+padding: 2%;
+padding-bottom:12%;
+align-items:center;
+justify-content: center;
+text-align: center;
+border-radius: 15px;
+box-shadow:3px 3px 3px black ;
+}
+    
 
-    .email{
-        color: #eaffff;
-    }
-    #email{
-        width: 250px;
-    }
-    input{
-        width: 80px;
-        height: 22px;
-        text-align: center ;
-        background: #202323a1;
-        font-size:25px;
-        color: white;
-    }
+h1{
+margin-top:1%;
+color: #ffffff;
+font-size:1.3rem;}
+p{
+   text-align: left ;
+   color: #ffffff;
+   font-size:1.6rem;
+}
+input{
+    width: 50%;
+    margin-left:25%;
+    margin-bottom:4px;
+    text-align: center;
+    font-size: 1rem;
     
-    select{height: 25px;
-        border-radius: 5px;
-         background: #202323a1;
-            font-size:15px;
-            color: white;
-            box-shadow: 3px 3px 3px #202323a1;
-            margin: 3px; }
-    }
+}
+hr{
+    border-color: #0081ffa2;
+    width: 35%;
+    margin: auto;
     
- 
+    
+}
+.caixa{
+   
+    margin-top:5%;
+    margin-bottom:5%;
+    
+}
+button{
+    width: 40%;
+    box-shadow:3px 2px 3px #eaffff6d;
+    background: #00214283;
+    border-color:#eaffff54;
+    color:#ffffff ;
+    font-size:19px;
+    
+}
+button:hover{
+    color: #383838dc;
+    background-color:#ffffff8d;
+    cursor:pointer;
+}
+img{
+    width: 30%;
+    
+    
+}
+
+.linha{
+    margin: 0;
+}
+.subcx{
+    margin: }
+    }
+        
