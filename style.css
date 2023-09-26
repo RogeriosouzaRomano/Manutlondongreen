@@ -4,10 +4,10 @@
 }
     
 body {
-    width:450px;
+    min-height:100vh;
     background-image:url("20230926_125950.jpg");
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: 400px;
     padding-top:2%;
 }
 .container{
