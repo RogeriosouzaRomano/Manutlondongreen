@@ -35,6 +35,7 @@ h1{
        text-align: left ;
        color: #ffffff;
        font-size:20px;
+        width:90%
         margin:auto;
     }
     input{
@@ -76,7 +77,9 @@ h1{
         
         
     }
-label{ color: White;}
+label{ color: White;
+     width:90%;
+     margin:auto;}
     
     .linha{
         margin: 0;
