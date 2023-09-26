@@ -18,7 +18,7 @@
     body {
     
     background:#125b08;
-    background-image:url("ft/j.jpg");
+    background-image:url("j.jpg");
     background-size: 100vh;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -100,7 +100,7 @@
     }
     body {
     background:#0d4006d0;
-    background-image:url("ft/teclado.jpg");
+    background-image:url("teclado.jpg");
     
     background-repeat: no-repeat;
     
