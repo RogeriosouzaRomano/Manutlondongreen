@@ -85,7 +85,13 @@ label{ color: White;
      margin:auto;
      font-size:55px;}
 options{font-size:57px;
-       margin-left:20%;}
+       margin-left:20%;
+       height:50px;}
+select{
+    height:50px;
+    font-size:55px;
+    padding-left:20%;
+}
     
     .linha{
         margin: 0;
