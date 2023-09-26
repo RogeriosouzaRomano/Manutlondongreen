@@ -34,7 +34,7 @@ h1{
     p{
        text-align: left ;
        color: #ffffff;
-       font-size:20px;
+       font-size:40px;
         width:90%
         margin:auto;
     }
@@ -64,7 +64,7 @@ h1{
         background: #00214283;
         border-color:#eaffff54;
         color:#ffffff ;
-        font-size:19px;
+        font-size:29px;
         
     }
     button:hover{
@@ -79,7 +79,8 @@ h1{
     }
 label{ color: White;
      width:90%;
-     margin:auto;}
+     margin:auto;
+     font-size:40px;}
     
     .linha{
         margin: 0;
