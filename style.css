@@ -5,15 +5,16 @@
 @media( max-width:480px){
     
 body {
+    width:450px;
     background-image:url("20230926_125950.jpg");
     background-size: cover;
     padding-top:25%;
 }
 .container{
 
-text-align: center;
+text-align: left;
 background: #00000085;
-width: 80%;
+width: 90%;
 height: 10%;
 margin: auto;
 padding: 5%;
