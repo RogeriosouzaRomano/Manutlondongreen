@@ -4,26 +4,26 @@
 }
     
 body {
-    width:95vw;
+    width:100vw;
     height:100vh;
     background-image:url("20230926_125950.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    
     padding-top:2%;
 }
 .container{
 
 text-align: left;
 background: #00000085;
-width:70vw;
-    height:90vh;
+width:50vw;
+    height:80vh;
 margin: auto;
 margin:5px;
 padding: 5%;
 padding-bottom:12%;
 align-items:center;
 justify-content: center;
-text-align: center;
+text-align: left;
 border-radius: 15px;
 box-shadow:3px 3px 3px black ;
 }
@@ -75,6 +75,7 @@ h1{
         
         
     }
+label{ color: White;}
     
     .linha{
         margin: 0;
