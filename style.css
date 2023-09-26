@@ -84,7 +84,8 @@ label{ color: White;
      width:90%;
      margin:auto;
      font-size:55px;}
-options{font-size:57px;}
+options{font-size:57px;
+       margin-left:20%;}
     
     .linha{
         margin: 0;
