@@ -6,6 +6,7 @@
 body {
     width:450px;
     background-image:url("20230926_125950.jpg");
+    background-repeat: no-repeat;
     background-size: 450px;
     padding-top:2%;
 }
