@@ -2,19 +2,20 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Manutenção London Green</title>
-
+   <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <header>
+        <h1>Controle de Lâmpadas</h1><hr>
+    </header>
 
- 
- <body>
-   <div class="container">  
-    <h1>Controle de Lâmpadas</h1>
-  
-    <form action="https://api.sheetmonkey.io/form/rVL4M8fgdrWwxmZkrfdVfW" method="post">
-   <div class="caixas"> <label for="funcionarios"> Funcionário<br></label>
-    <select id="funcionarios" name="funcionarios">
+    <div class="container">
+        <form action="https://api.sheetmonkey.io/form/rVL4M8fgdrWwxmZkrfdVfW" method="post">
+            <label for="funcionarios">Funcionário</label>
+            <select id="funcionarios" name="funcionarios">
         <option value="administração">ADM</option>
         <option value="gilmar">Gilmar</option>
         <option value="ricardo">Ricardo</option>
@@ -23,17 +24,20 @@
         <option value="thiago">Thiago</option>
         <option value="leandro">Leandro</option>
         <option value="bruno">Bruno</option>
-    </select><br>
-    </div><hr>
-    <label for="email"> Email <br></label><input type="email"id="email" name="Email"autocomplete="on" required><br><hr>
-    <label for="tipo">Tipo Movimentação<br></label>
-        <select id="tipo" name="Tipo">
-            <option value="Entrada">Entrada</option>
+            </select>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" autocomplete="on" required>
+
+            <label for="tipo">Tipo Movimentação</label>
+       <select id="tipo" name="Tipo">
+          <option value="Entrada">Entrada</option>
           <option value="Saída">Saída</option>
-        </select><br><hr>
-    <label for="lampadas">Selecione uma lâmpada<br></label>
-    <select id="lampadas" name="lampadas">
-        <option value="lampada_e27_3500k ">Lâmpada E27 3500K (poste e balizador)</option>
+       </select>
+
+            <label for="lampadas">Selecione uma lâmpada</label>
+            <select id="lampadas" name="lampadas">
+               <option value="lampada_e27_3500k ">Lâmpada E27 3500K (poste e balizador)</option>
         <option value="lampada_e27_6500k">Lâmpada E27 6500K (lixeiras e Escadas)</option>
         <option value="lampada_quadrada_18w_3500k">Lâmpada Quadrada 18W 3500K (Áreas comuns térreo)</option>
         <option value="lampada_redonda_6w_6500k">Lâmpada Redonda 6W 6500K (Corredores dos Andares)</option>
@@ -55,20 +59,29 @@
         <option value="espeto_verde">Espeto Verde (Jardim)</option>
         <option value="espeto_amarelo">Espeto Amarelo (Jardirm)</option>
         <option value="par20_3000k">Par20 3000K (Colunas do club House)</option>
-    </select><br><hr>
-    <label for="cores">Cor da Lâmpada <br></label>
-    <select id="cores" name="cores">
-        <option value="branco">Branco</option>
-        <option value="branco_neutro">Branco Neutro</option>
-        <option value="amarelo">Amarelo</option>
-        <option value="verde">Verde</option>
-    </select><hr>
- <label for="quantidade">Quantidade</label> <br><input type="text" id="Quantidade"name="Quantidade" placeholder="00"></p>
- <button type="submit">Enviar</button>
- </form>
- <iframe width="370" height="600" src="https://lookerstudio.google.com/embed/reporting/f50a98f5-85d6-43b3-ba69-847b91a8f040/page/LWodD" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </select>
 
- </div>
+        <label for="cores">Cor da Lâmpada</label>
+         <select id="cores" name="cores">
+             <option value="branco">Branco</option>
+             <option value="branco_neutro">Branco Neutro</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="verde">Verde</option>
+           </select>
+
+            <label for="quantidade">Quantidade</label>
+            <input type="text" id="Quantidade" name="Quantidade" placeholder="00" >
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        
+    </div>
+
+    <footer>
+        <img src="ld.png" alt="logo London" width="70px">
+        <p>&copy; 2023 London Green <br>Park Style</p>
+    </footer>
 </body>
-    </html>
-    
+                   </html>
+            
